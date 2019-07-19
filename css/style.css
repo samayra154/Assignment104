@@ -1,0 +1,450 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    float: left;
+    background-color: #560b63ba;
+    padding: 15px 0px;
+}
+.logo {
+    width: 35%;
+    float: left;
+}
+.logo img {
+    display: block;
+    max-width: 100%;
+}
+.menu {
+    width: 65%;
+    float: left;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 45px;
+
+}
+nav ul li:hover {
+    background-color: darkolivegreen;
+    padding: 3px 8px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.header-text {
+    padding-top: 10%;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.header-text h2 {
+    color: wheat;
+    line-height: 45px;
+    font-size: 29px;
+}
+.btn {
+    margin-top: 4%;
+    padding: 15px 35px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #ca7d0c;
+    color: white;
+    border: none;
+    transition: 0.4s ease-in-out;
+        border-radius: 13px;
+
+}
+.btn: hover{
+	box-shadow: 0px 4px 0px #b56d02;
+        
+	
+}
+.service {
+	background: #4DB6AC;
+	width: 100%;
+	float: left;
+}
+.service-tittle {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+.service-tittle h3{
+	padding-top: 50px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.service-tittle p{
+	margin: 20px;
+	font-size: 18px;
+}
+.underline {
+    border-bottom: 2px solid #161616;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.service-box {
+
+}
+.service-one {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin: 35px 28px;
+}
+.service-one h3 {
+    padding: 3px;
+    margin: 20px;
+}
+.service-one img{
+
+}
+.service-one p {
+    color: white;
+    font-size: 18px;
+}
+.team {
+    width: 100%;
+    float: left;
+    background-color: #a9a9a99e;
+}
+.team-tittle {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+.team-tittle img {
+}
+.team-tittle h3 {
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.team-tittle p {
+    font-size: 18px;
+    margin: 20px 0px 60px;
+}
+.underline {
+    border-bottom: 2px solid #161616;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.team-box {
+
+}
+.team-one {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.team-one h3 {
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+.team-one h4{
+	color: blue;
+	font-style: italic;
+}
+
+.team-one img{
+	
+	width: 140px;
+}
+.team-one p {
+    margin: 0px 0px 60px;
+    padding: 10px;
+}
+.skills {
+    width: 100%;
+    float: left;
+    background-color: #ffeb3b2b;
+    text-align: center;
+}
+.skills-tittle {
+    margin: 30px 300px;
+}
+.skills-tittle h3 {
+    font-size: 30px;
+}
+.skills-tittle p {
+    font-size: 100%;
+    font-style: oblique;
+    color: #9e0b9e;
+}
+.underline {
+    border-bottom: 2px solid #161616;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.skills-box{
+
+}
+
+.skills-one {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.skills-one span {
+    position: absolute;
+    font-size: 25px;
+    margin-top: 66px;
+    margin-left: 65px;
+}
+.skills-one img{
+	
+}
+.skills-one h3 {
+    margin: 30px;
+    color: #a22e2e;
+    font-size: 20px;
+}
+.Portfolio {
+    background-color: #FFDD99;
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.Portfolio-tittle {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.Portfolio-tittle h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.Portfolio-tittle p {
+    font-size: 19px;
+}
+.underline {
+    border-bottom: 2px solid #161616;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.btn2 {
+    background: #ab7c1c;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 0;
+    border-radius: 8%;
+}
+
+.Portfolio-one {
+    width: 46%;
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.Portfolio-one img {
+    vertical-align: middle;
+    border: 0;
+}
+.Portfolio-one h3 {
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 15px;
+    
+}
+.btn3 {
+    margin-left: 600px;
+    padding: 14px 30px;
+    background: #20afa2f2;
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: none;
+
+}
+.about {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #da4e7e;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.about-tittle {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-tittle h3 {
+    color: white;
+    font-size: 25px;
+}
+.about-tittle p {
+    color: white;
+    font-size: 19px;
+}
+.underline {
+    border-bottom: 2px solid #161616;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.about-one {
+    width: 550px;
+    float: left;
+}
+.slide {
+    float: left;
+    width: 25%;
+}
+.slide img {
+    width: 120px;
+    padding-top: 40px;
+}
+.slide p{
+
+}
+.write {
+    float: left;
+    width: 70%;
+    padding-top: 63px;
+    margin-left: 25px;
+}
+.write p {
+    font-size: 15px;
+    color: wheat;
+    text-align: justify;
+    font-style: oblique;
+}
+.write h1 {
+    text-align: initial;
+    font-size: 20px;
+}
+.write h5 {
+    text-align: left;
+    color: #FFEB3B;
+    font-size: 15px;
+}
+.touch {
+    text-align: center;
+    width: 100%;
+    background: #3C5499;
+    float: left;
+    color: white;
+}
+.touch-tittle {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.touch-tittle h3 {
+    padding-top: 40px;
+    padding-bottom: 8px;
+    font-size: 25px;
+}
+.touch-tittle p {
+    font-size: 18px;
+}
+.underline {
+    border-bottom: 2px solid #161616;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.name {
+    width: 46%;
+    float: left;
+    padding-top: 20px;
+}
+.name input {
+    background: #0D3252;
+    padding: 10px 40px;
+    margin-left: 57%;
+    border: none;
+}
+.email {
+    width: 45%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+.email input {
+    background: #0D3252;
+    padding: 10px 35px;
+    margin-right: 40%;
+    border: none;
+}
+.massage {
+    width: 100%;
+    float: left;
+    padding: 10px 5px;
+}
+.massage textarea {
+    background: #0D3252;
+    border: 0;
+    padding: 20px;
+    padding-right: 190px;
+    margin-left: -54px;
+    font-size: 13px;
+}
+.btn4 {
+    margin-right: 44px;
+    padding: 14px;
+    background: #30d0c1a1;
+    border: 0;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: #fff;
+    border-radius: 8%;
+}
+footer {
+    background: #153c4e;
+    float: left;
+    width: 100%;
+}
+.media {
+    
+    width: 100%;
+}
+.media {
+    width: 100%;
+}
+.media li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 8px 52px;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
